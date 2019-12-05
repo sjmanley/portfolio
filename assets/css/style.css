@@ -1,0 +1,50 @@
+body {
+    width: 960px;
+    margin: auto;
+    background-image: url(../images/criss-cross.png);
+    background-color: #ffffff;
+}
+
+a {
+    float: right;
+    background-color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+h1 {
+    position: absolute;
+    top: -20px;
+    left: 400px;
+    background: #4aaaa5;
+    color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+h1,a,div {
+    border-bottom: 5px solid #cccccc;
+  }
+  
+img {
+    float: left;
+    width: 200px;
+    border: 5px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .footer {
+    position: center;
+    left: 0;
+    bottom: 0;
+    width: 960px;
+    background-color: #cccccc;
+    color: black;
+    text-align: center;
+  }
