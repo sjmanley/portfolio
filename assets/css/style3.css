@@ -1,0 +1,27 @@
+/** Contacts style sheet
+*/
+form{
+    width: 960px;
+    text-align: left;
+}
+.contact-input{
+width: 100%;
+}
+input:focus{
+background-color:lightblue;
+}
+.some-page-wrapper{
+height: 900;
+}
+.textbox{
+width: 100%;
+height: 300px;
+}
+#submit{
+    background-color: #4AAAA5;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 30;
+    width: 90;
+}

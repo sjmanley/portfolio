@@ -1,0 +1,51 @@
+/** Portfolio style sheet
+*/
+.container{
+    position: absolute;
+    display: inline-block;
+    padding: 0px 0px 5px 0px;
+    height: 900px;
+}
+div{
+    align-content: center;
+    clear: left;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  /* Clear floats after the columns */
+.row:after {
+    content: “”;
+    display: table;
+    clear: both;
+  }
+.textbox{
+position: absolute;
+bottom: 20px;
+background-color: #4AAAA5;
+width: 100%;
+color: white;
+}
+#Paintings{
+    height: 250px;
+    width: 250px;
+}
+#Airbrush{
+    height: 250px;
+    width: 250px;
+ }
+ #Pencil{
+    height: 250px;
+    width: 250px;
+ }
+ #3_d{
+    height: 250px;
+    width: 250px;
+ }
+ #Tee Designs{
+    height: 250px;
+    width: 250px;
+ }
