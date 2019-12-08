@@ -1,11 +1,25 @@
 /** Contacts style sheet
 */
 form{
+    align-content: center;
     width: 960px;
     text-align: left;
 }
+body{background-image: url(../images/criss-cross.png);
+}
+.whitebox {
+    background-color: white;
+    overflow: auto;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    width: 960px;
+}
 .contact-input{
 width: 100%;
+}
+.h2 {
+    text-decoration-color: #4AAAA5;
 }
 input:focus{
 background-color:lightblue;
@@ -17,7 +31,7 @@ height: 900;
 width: 100%;
 height: 300px;
 }
-#submit{
+submit{
     background-color: #4AAAA5;
     cursor: pointer;
     border: none;

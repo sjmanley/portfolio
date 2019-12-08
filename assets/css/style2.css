@@ -6,6 +6,16 @@
     padding: 0px 0px 5px 0px;
     height: 900px;
 }
+body{background-image: url(../images/criss-cross.png);
+}
+.whitebox {
+    background-color: white;
+    overflow: auto;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    width: 960px;
+}
 div{
     align-content: center;
     clear: left;
