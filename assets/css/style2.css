@@ -33,29 +33,34 @@ div{
     clear: both;
   }
 .textbox{
-position: absolute;
 bottom: 20px;
 background-color: #4AAAA5;
 width: 100%;
 color: white;
 }
-#Paintings{
+#paintings{
+    padding: 40px;
     height: 250px;
     width: 250px;
+    float: left;
 }
-#Airbrush{
+#airbrush{
     height: 250px;
     width: 250px;
+    float: right;
  }
- #Pencil{
+ #pencil{
     height: 250px;
     width: 250px;
+    clear: left;
  }
- #3_d{
+ #3_D{
     height: 250px;
     width: 250px;
+    clear: right;
  }
- #Tee Designs{
+ #teeDesigns{
     height: 250px;
     width: 250px;
+    clear: left;
  }
